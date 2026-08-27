@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ios_bg">#151516</color>
+    <color name="ios_key_bg">#434346</color>
+    <color name="ios_key_special_bg">#2C2C2E</color>
+    <color name="ios_key_pressed">#636366</color>
+    <color name="ios_text_color">#FFFFFF</color>
+    <color name="ios_subtext_color">#8E8E93</color>
+    <color name="ios_candidate_divider">#1F1F21</color>
+    <color name="ios_composing_bg">#111112</color>
+    <color name="ios_composing_text">#FF9500</color>
+    <!-- 圖示顏色：黑白 -->
+    <color name="ios_icon_color">#FFFFFF</color>
+    <color name="ios_icon_dark">#434346</color>
+
+    <!-- 淺色模式 -->
+    <color name="ios_bg_light">#D1D3D9</color>
+    <color name="ios_key_bg_light">#FFFFFF</color>
+    <color name="ios_key_special_bg_light">#ABAFB8</color>
+    <color name="ios_key_pressed_light">#E4E4E4</color>
+    <color name="ios_text_color_light">#000000</color>
+    <color name="ios_subtext_color_light">#6D6D72</color>
+    <color name="ios_candidate_divider_light">#C7C9CF</color>
+</resources>

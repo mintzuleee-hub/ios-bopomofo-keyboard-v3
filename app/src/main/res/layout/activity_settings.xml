@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ios_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="喜好設定"
+            android:textColor="@color/ios_text_color"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- 啟用鍵盤 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="第一次使用"
+            android:textColor="@color/ios_subtext_color"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_enable_ime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="1. 前往系統設定啟用輸入法" />
+
+        <Button
+            android:id="@+id/btn_select_ime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="2. 切換成這個輸入法" />
+
+        <!-- 外觀 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="外觀"
+            android:textColor="@color/ios_subtext_color"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="深色模式"
+                android:textColor="@color/ios_text_color"
+                android:textSize="17sp" />
+
+            <Switch
+                android:id="@+id/sw_dark_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- 鍵盤回饋 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="鍵盤回饋"
+            android:textColor="@color/ios_subtext_color"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="打字音效"
+                android:textColor="@color/ios_text_color"
+                android:textSize="17sp" />
+
+            <Switch
+                android:id="@+id/sw_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="打字震動"
+                android:textColor="@color/ios_text_color"
+                android:textSize="17sp" />
+
+            <Switch
+                android:id="@+id/sw_vibration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- 語音輸入 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="語音輸入"
+            android:textColor="@color/ios_subtext_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_mic_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="麥克風權限：尚未開啟"
+            android:textColor="@color/ios_text_color"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_mic_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="開啟麥克風權限" />
+
+    </LinearLayout>
+</ScrollView>
